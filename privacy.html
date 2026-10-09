@@ -10,31 +10,46 @@
   <main class="page document">
     <a class="back" href="./index.html">Pickle Mate</a>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: May 28, 2026</p>
+    <p class="updated">Last updated: October 10, 2026</p>
 
     <h2>Overview</h2>
-    <p>Pickleball Watch Scorer is designed as a local-first pickleball scorekeeper. We do not operate a server for the app and we do not collect, sell, rent, or share personal information.</p>
+    <p>Pickleball (PickleMate) by Pavel Korkodinov stores your scorecards locally and uses online services for purchase support and usage analytics. This policy explains those different uses. Contact <a href="mailto:ikorkodinov@gmail.com">ikorkodinov@gmail.com</a> for privacy questions or requests.</p>
 
     <h2>Data Stored on Your Device</h2>
-    <p>The app stores match scores, match history, player names you enter, and related match details locally on your device using Apple system storage. This data stays on your device unless you choose to share it through Apple-provided sharing features.</p>
+    <p>The app stores match scores, events, history, player names you enter, and preferences in its local Apple system storage. You do not need a separate PickleMate account. Match data can also be transferred to your paired Apple Watch. Apple device backups may include local app data, depending on your Apple settings.</p>
 
     <h2>Microphone and Speech Recognition</h2>
-    <p>If you use voice scoring, the app asks for microphone and speech recognition permission. Voice scoring is only used when you start listening from inside the app. The app does not record, store, or send your voice to our servers. Speech recognition is requested for scoring commands such as point, side out, and undo.</p>
+    <p>If you start voice scoring on iPhone, the app asks for microphone and speech recognition permission. This version requires Apple on-device speech recognition and does not fall back to server recognition when it is unavailable. Audio is used to recognize scoring commands such as point, side out and undo. The app does not save a voice recording or send voice-scoring audio or transcripts to our servers or analytics service. You can stop listening in the app and change microphone or speech permissions in iOS Settings.</p>
 
     <h2>Apple Watch Sync</h2>
-    <p>When you use the Apple Watch app, score state may sync between your iPhone and Apple Watch through Apple's WatchConnectivity framework. This sync is handled by Apple system services and does not pass through our servers.</p>
+    <p>Apple WatchConnectivity transfers match snapshots, including player names, scores and match events, and paid-access status between your paired iPhone and Apple Watch. The paid-access message can include an expiration date and update timestamp. This device-to-device transfer does not use our own sync server. The iPhone can separately send usage events about Watch activity through the analytics service described below.</p>
 
     <h2>Purchases</h2>
-    <p>Lifetime unlock purchases are processed by Apple through the App Store. We do not receive or store your payment card details.</p>
+    <p>Apple processes lifetime purchases and yearly subscriptions through StoreKit and the App Store. If an eligible free trial is offered, its terms and the renewal price are shown before purchase. Subscriptions can be managed in your Apple account settings. We do not receive your payment card number.</p>
+    <p>RevenueCat helps record and synchronize purchases and paid entitlements. Its app user ID is the same random installation identifier used by our analytics service. It also processes transaction, product, entitlement and technical SDK information. These records are pseudonymous and can be associated with your app installation; they are not completely anonymous. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a> and <a href="https://www.apple.com/legal/privacy/">Apple's privacy information</a>.</p>
+
+    <h2>Optional Apple Health Export</h2>
+    <p>When you choose Save to Health, the app asks for permission to write a pickleball workout. You can check or edit the start and end times before saving. The workout contains the activity type and duration, with a match-based synchronization identifier and a marker that it was entered by the user. The app does not estimate calories or heart rate.</p>
+    <p>This feature requests no access to read your Health records. It does not upload Health records to our servers, RevenueCat or analytics. You control Health permissions and saved workouts in Apple's Health settings and app.</p>
 
     <h2>Analytics and Tracking</h2>
-    <p>The app does not include third-party analytics, advertising SDKs, or cross-app tracking. We do not collect device identifiers for advertising or tracking.</p>
+    <p>The app sends usage events to a Supabase-hosted analytics endpoint. Events include a randomly generated persistent installation ID, session and event IDs, timestamps, app version and build, language/locale, platform, OS version and device model. Event properties can describe match creation and completion, scoring format, rally counts, match IDs, Watch synchronization, voice-feature use, paywall and purchase actions, review prompts and error messages.</p>
+    <p>We use these events to understand product use, purchase flows and reliability. The analytics service is not intended to receive voice recordings, videos or Health records. Network services also receive ordinary connection information such as IP addresses. There is no separate analytics consent prompt or analytics switch in this version. Contact us to request information, object to processing or request deletion where applicable.</p>
+    <p>We do not sell personal information or use app data to track your activity across other companies' apps and websites for advertising. See <a href="https://supabase.com/privacy">Supabase's privacy information</a>.</p>
 
     <h2>Crash Reports</h2>
     <p>If you choose to share diagnostics with Apple, Apple may provide aggregated crash information to developers through App Store Connect. We do not add a separate crash reporting service.</p>
 
+    <h2>Retention, Sharing and Your Choices</h2>
+    <p>You can edit or delete local matches in the app. Deleting the app removes its local app data, but not necessarily copies on your paired Watch, Apple backups, Health workouts, exported files or information already held by purchase or analytics services. Purchase records may need to be retained for restoration and legal obligations. Support and operational records are retained as needed for their stated purposes and applicable obligations; contact us about a particular record or deletion request.</p>
+    <p>If you contact support, we receive your email address and the content you choose to send. If you use a public GitHub issue, that issue is public. Do not post personal videos, player information, receipts or payment details there. Use email for a private privacy request.</p>
+    <p>Depending on your location, you may have rights to access, correct, delete, restrict or object to processing, obtain a copy of information, withdraw an applicable consent, or complain to a privacy authority. We may need information to identify the relevant records. Our providers may process information outside your country under their applicable privacy terms and safeguards.</p>
+
+    <h2>This Website and Updates</h2>
+    <p>This static support website is hosted by GitHub Pages. We have not added advertising or analytics scripts to this privacy page. GitHub may process ordinary hosting request logs; see its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. We update this policy when processing changes. The date above identifies this version.</p>
+
     <h2>Contact</h2>
-    <p>For privacy questions or support, visit the <a href="./support.html">support page</a>.</p>
+    <p>For privacy questions or deletion requests, email <a href="mailto:ikorkodinov@gmail.com">ikorkodinov@gmail.com</a>. General instructions are available on the <a href="./support.html">support page</a>.</p>
   </main>
 </body>
 </html>
